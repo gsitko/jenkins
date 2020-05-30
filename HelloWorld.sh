@@ -1,2 +1,4 @@
-uname#!/bin/bash
-echo "Hello World"
+#!/bin/bash
+echo "Sample Jenkins Bash script"
+NUMBER=$(($NUMBERONE + $NUMBERTWO))
+echo "$NUMBER"
